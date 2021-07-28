@@ -18,6 +18,7 @@
         stage('Docker Build') {
 
             steps {
+                sh(script: 'sudo su')
                 sh(script:"""
                   cd azure-vote/
                   docker images -a
