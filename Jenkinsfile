@@ -9,7 +9,7 @@ pipeline {
             steps {
 
                 echo "$GIT_BRANCH"
-                sh(scrtipt: 'echo Hello World')
+                sh(script: 'echo Hello World')
             }
         }
     }
