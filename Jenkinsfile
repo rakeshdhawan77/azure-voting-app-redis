@@ -21,7 +21,7 @@
                 sh(script: 'sudo su')
                 sh(script:"""
                   cd azure-vote/
-                  /usr/local/bin/docker 'docker images ls'
+                  /usr/local/bin/docker 'docker images'
 #                  docker images ls 
                   docker build -t jenkins-pipeline .
                   docker images -a
