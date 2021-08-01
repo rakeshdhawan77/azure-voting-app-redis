@@ -24,8 +24,8 @@
 #                  /usr/local/bin/docker 'docker images'
 #                  docker images ls 
                   /usr/local/bin/docker images
-                  docker build -t jenkins-pipeline .
-                  docker images -a
+                  /usr/local/bin/docker build -t jenkins-pipeline .
+                  /usr/local/bin/docker images
                   cd ..
                 """)
             }
